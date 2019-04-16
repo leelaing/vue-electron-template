@@ -17,3 +17,9 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+@import "./assets/css/main.css";
+@import "./assets/css/photon.min.css";
+</style>
+
