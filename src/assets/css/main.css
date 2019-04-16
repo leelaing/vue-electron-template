@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+html {
+  margin-top: 0px;
+}
+
+.v-icon {
+  background-color: transparent;
+}
+
+.emoji {
+  font-size: 25px;
+}
+
+.v-btn {
+  background-color: transparent;
+}
+
+.v-btn:hover {
+  background-color: transparent;
+}
+
+div.card__actions .btn {
+  min-width: 0;
+}
+
+span {
+  background-color: transparent;
+  font-size: 30px;
+}
+
+span:hover {
+  background-color: transparent;
+}
+
+.v-btn__content {
+  background-color: transparent;
+}
+
+.v-btn__content:hover {
+  background-color: transparent;
+}
+
+.v-list__tile__action {
+  background-color: transparent;
+}
+
+.v-list__tile__action:hover {
+  background-color: transparent;
+}
+
+.v-list__tile__content {
+  background-color: transparent;
+}
+
+.v-list__tile__content:hover {
+  background-color: transparent;
+}
+
+.v-list__tile__title {
+  background-color: transparent;
+}
+
+.v-list__tile__title:hover {
+  background-color: transparent;
+}
+
+.image-card {
+  background-color: lightblue;
+}
+
+.v-card {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+div.btn__content {
+  padding: 0;
+  min-width: 20px;
+}
+/*# sourceMappingURL=main.css.map */
