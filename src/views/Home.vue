@@ -15,6 +15,18 @@
 <script>
 
 export default {
+  metaInfo() {
+    return {
+      title: 'Title Goes Here!',
+      meta: [
+        {
+          name: 'description',
+          content: 'Content goes here!'
+        }
+
+      ]
+    }
+  },
   data() {
     return {
       name: '',
