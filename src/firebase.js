@@ -1,12 +1,12 @@
 import { initializeApp } from 'firebase'
 
 const app = initializeApp({
-  apiKey: process.env.APIKEY,
-  authDomain: process.env.AUTHDOMAIN,
-  databaseURL: process.env.DATABASEURL,
-  projectId: process.env.PROJECTID,
-  storageBucket: process.env.STORAGEBUCKET,
-  messagingSenderId: process.env.MESSAGINGSENDERID
+  apiKey: "AIzaSyDZXaU_ng1zOu_HDyCJFc2CvriTzfSdv0I",
+  authDomain: "big2tiny-38f5a.firebaseapp.com",
+  databaseURL: "https://big2tiny-38f5a.firebaseio.com",
+  projectId: "big2tiny-38f5a",
+  storageBucket: "big2tiny-38f5a.appspot.com",
+  messagingSenderId: "709284831928"
 })
 
 app.firestore().enablePersistence()

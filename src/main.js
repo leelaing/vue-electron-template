@@ -3,6 +3,7 @@ import './plugins/vuetify'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+require('dotenv').config()
 import Vuefire from 'vuefire'
 import { db, rtdb } from './firebase.js'
 

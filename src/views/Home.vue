@@ -19,12 +19,12 @@ export default {
     return {
       name: '',
       items: [
-        { name: 'open', href: '', image: '', route: '/open', class: 'open' },
-        { name: 'open', href: '', image: '', route: '/open', class: 'open' },
-        { name: 'open', href: '', image: '', route: '/open', class: 'open' },
-        { name: 'open', href: '', image: '', route: '/open', class: 'open' },
-        { name: 'open', href: '', image: '', route: '/open', class: 'open' },
-        { name: 'open', href: '', image: '', route: '/open', class: 'open' },
+        { name: 'open1', href: '', image: '', route: '/open', class: 'open' },
+        { name: 'open2', href: '', image: '', route: '/open', class: 'open' },
+        { name: 'open3', href: '', image: '', route: '/open', class: 'open' },
+        { name: 'open4', href: '', image: '', route: '/open', class: 'open' },
+        { name: 'open5', href: '', image: '', route: '/open', class: 'open' },
+        { name: 'open6', href: '', image: '', route: '/open', class: 'open' },
       ]
     }
   },
