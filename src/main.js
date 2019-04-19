@@ -1,16 +1,16 @@
 import Vue from 'vue'
 import Meta from 'vue-meta'
-import './plugins/vuetify'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import './plugins/vuetify'
 require('dotenv').config()
 import Vuefire from 'vuefire'
-import { db, rtdb } from './firebase.js'
+import { auth, storage, db, rtdb } from './firebase.js'
 
 
 Vue.use(Vuefire)
-Vue.use({ db, rtdb })
+Vue.use({ auth, storage, db, rtdb })
 Vue.use(Meta)
 
 
